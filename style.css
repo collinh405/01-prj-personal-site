@@ -1,1 +1,284 @@
 /* Add you CSS here */
+/* Set a background color and font for the whole page */
+body {
+    /* Set a simple, professional font for the whole page */
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Use Segoe UI for a professional look */
+    background-color: #f9fafc; /* very light blue */
+    color: #000000; /* make all text black */
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Style the header (Hero section) */
+header {
+  background-color: #000000; /* black background */
+  color: #000000; /* black text */
+  text-align: center; /* center the text */
+  padding: 40px 0; /* space above and below */
+}
+
+/* Style each section */
+section {
+  background-color: white; /* white background */
+  margin: 20px auto; /* space around sections */
+  padding: 20px; /* space inside sections */
+  max-width: 600px; /* limit section width */
+  border-radius: 8px; /* rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* subtle shadow */
+}
+
+/* Style section headings */
+section h2 {
+  color: #4a90e2; /* blue color for headings */
+}
+
+/* Style the skills and projects lists */
+ul {
+  list-style-type: disc; /* bullet points */
+  padding-left: 20px; /* space before list items */
+}/* Soft background color for the whole page */
+body {
+  background-color: #f9fafc; /* very light blue */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section styles */
+header {
+  background-color: #a7c7e7; /* soft blue */
+  color: #222;
+  text-align: center;
+  padding: 40px 10px;
+  border-radius: 0 0 20px 20px; /* rounded bottom corners */
+}
+
+/* Section styles */
+section {
+  background-color: #fff;
+  margin: 24px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(100, 100, 100, 0.07);
+}
+
+/* Section headings */
+section h2 {
+  color: #4a90e2; /* gentle blue */
+  margin-top: 0;
+}
+
+/* List styles */
+ul {
+  padding-left: 20px;
+}
+
+/* Add a little space between list items */
+li {
+  margin-bottom: 6px;
+}/* Soft background color for the whole page */
+body {
+  background-color: #f9fafc; /* very light blue */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section styles */
+header {
+  background-color: #a7c7e7; /* soft blue */
+  color: #222;
+  text-align: center;
+  padding: 40px 10px;
+  border-radius: 0 0 20px 20px; /* rounded bottom corners */
+}
+
+/* Section styles */
+section {
+  background-color: #fff;
+  margin: 24px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(100, 100, 100, 0.07);
+}
+
+/* Section headings */
+section h2 {
+  color: #000000; /* gentle blue */
+  margin-top: 0;
+}
+
+/* List styles */
+ul {
+  padding-left: 20px;
+}
+
+/* Add a little space between list items */
+li {
+  margin-bottom: 6px;
+}/* Example: Add these to your style.css */
+
+/* Hero section with a light blue background */
+header {
+  background-color: #3e4245; /* light blue */
+}
+
+/* Bio section with a light yellow background */
+#bio {
+  background-color: #789b50; /* light yellow */
+}
+
+/* Skills section with a light green background */
+#skills {
+  background-color: #789b50; /* light blue */
+}
+
+/* Projects section with a light pink background */
+#projects {
+  background-color: #789b50; /* light blue */
+}
+
+/* Underline section headings and make them white with a black outline */
+section h2 {
+  text-decoration: underline;      /* Underline the heading */
+  color: white;                    /* Make the text white */
+  /* Add a black outline using text-shadow */
+  text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+/* Add this to your style.css file */
+
+/* Set a beige geometric pattern as the background for the whole page */
+body {
+  background-color: #f5f5dc; /* beige fallback color */
+  /* Example pattern from https://www.toptal.com/designers/subtlepatterns/ */
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry2.png');
+  /* The pattern will repeat automatically */
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Minimalist background with simple circles */
+
+/* This positions the shapes behind your content */
+body {
+  position: relative;
+  background-color: #f9fafc; /* very light blue */
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scroll if shapes go off screen */
+}
+
+/* Large light circle in the top left */
+body::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  width: 200px;
+  height: 200px;
+  background: #e0e7ef; /* soft blue-gray */
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+/* Large light circle in the bottom right */
+body::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  width: 250px;
+  height: 250px;
+  background: #e0e7ef; /* soft blue-gray */
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+/* Minimalist beige gradient background with simple shapes */
+
+/* Set a beige gradient as the background for the whole page */
+body {
+  /* Linear gradient from light beige to a slightly darker beige */
+  background: linear-gradient(135deg, #f9f6ef 0%, #e8e3d3 100%);
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden; /* Prevents horizontal scroll if shapes go off screen */
+}
+
+/* Large light circle in the top left */
+body::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  width: 180px;
+  height: 180px;
+  background: #ede6d6; /* soft beige */
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+/* Large light circle in the bottom right */
+body::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  width: 220px;
+  height: 220px;
+  background: #e0d7c3; /* soft beige */
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+/* Extra shape: small circle in the top right */
+.header-shape {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  background: #f3ead9; /* lighter beige */
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+/* Extra shape: small oval in the bottom left */
+.footer-shape {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 90px;
+  height: 40px;
+  background: #e8e3d3; /* beige */
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+/* Make sure your main content stays above the shapes */
+header, section {
+  position: relative;
+  z-index: 1;
+}
